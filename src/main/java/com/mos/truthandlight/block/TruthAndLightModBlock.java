@@ -27,18 +27,25 @@ public class TruthAndLightModBlock {
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(9f).requiresCorrectToolForDrops()), TruthAndLightModCreativeTab.TruthAndLightModCreativeTab);
 
-    public static final RegistryObject<Block> RAW_CITRINE_BLOCK = registerBlock("raw_citrine_block",
+   public static final RegistryObject<Block> RAW_CHROMIUM_BLOCK = registerBlock("raw_chromium_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(8f).requiresCorrectToolForDrops()), TruthAndLightModCreativeTab.TruthAndLightModCreativeTab);
+
+   public static final RegistryObject<Block> RAW_SKY_LIGHT_BLOCK = registerBlock("raw_sky_light_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(8f).requiresCorrectToolForDrops()), TruthAndLightModCreativeTab.TruthAndLightModCreativeTab);
+
+    public static final RegistryObject<Block> SKY_LIGHT_BLOCK = registerBlock("sky_light_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(7f).requiresCorrectToolForDrops()), TruthAndLightModCreativeTab.TruthAndLightModCreativeTab);
 
-    public static final RegistryObject<Block> CITRINE_ORE = registerBlock("citrine_ore",
+ public static final RegistryObject<Block> CHROMIUM_ORE = registerBlock("chromium_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5f).requiresCorrectToolForDrops()), TruthAndLightModCreativeTab.TruthAndLightModCreativeTab);
 
-    public static final RegistryObject<Block> DEEPSLATE_CITRINE_ORE = registerBlock("deepslate_citrine_ore",
+    public static final RegistryObject<Block> SKY_LIGHT_ORE = registerBlock("sky_light_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(7f).requiresCorrectToolForDrops()), TruthAndLightModCreativeTab.TruthAndLightModCreativeTab);
-
+                    .strength(5f).requiresCorrectToolForDrops()), TruthAndLightModCreativeTab.TruthAndLightModCreativeTab);
 
 
     private static <T extends Block> RegistryObject<T> registerBlockWithoutBlockItem(String name, Supplier<T> block) {
