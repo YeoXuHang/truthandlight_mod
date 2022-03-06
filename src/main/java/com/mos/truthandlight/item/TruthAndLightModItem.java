@@ -1,6 +1,7 @@
 package com.mos.truthandlight.item;
 
 import com.mos.truthandlight.TruthAndLightMod;
+import com.mos.truthandlight.block.TruthAndLightModBlock;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
