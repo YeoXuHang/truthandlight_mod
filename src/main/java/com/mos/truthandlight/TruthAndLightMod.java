@@ -1,9 +1,12 @@
 package com.mos.truthandlight;
 
+import com.mos.truthandlight.block.TruthAndLightModBlock;
+import com.mos.truthandlight.item.TruthAndLightModItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
@@ -26,13 +29,12 @@ public class TruthAndLightMod
     private static final Logger LOGGER = LogManager.getLogger();
 
     public TruthAndLightMod() {
-        // Register the setup method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
-        // Register the enqueueIMC method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::enqueueIMC);
-        // Register the processIMC method for modloading
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
+        IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        TruthAndLightModItem.register(eventBus);
+        TruthAndLightModBlock.register(eventBus);
+
+        eventBus.addListener(this::setup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }
