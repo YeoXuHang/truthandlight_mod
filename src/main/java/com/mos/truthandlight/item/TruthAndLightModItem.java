@@ -13,9 +13,62 @@ public class TruthAndLightModItem {
   public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TruthAndLightMod.MOD_ID);
 
-    public static final RegistryObject<Item> CITRINE = ITEMS.register("citrine",
-            () -> new Item(new Item.Properties().tab(TruthAndLightModCreativeTab.TruthAndLightModCreativeTab)));
+    public static final RegistryObject<Item> CHROMIUM = ITEMS.register("chromium" ,
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ITEMS)));
 
+    public static final RegistryObject<Item> RAW_CHROMIUM = ITEMS.register("raw_chromium" ,
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ITEMS)));
+
+  public static final RegistryObject<Item> SKY_LIGHT_GEM = ITEMS.register("sky_light_gem" ,
+          () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ITEMS)));
+
+  public static final RegistryObject<Item> RAW_SKY_LIGHT = ITEMS.register("raw_sky_light" ,
+          () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ITEMS)));
+
+  public static final RegistryObject<Item> CHROMIUM_FRAGMENTS = ITEMS.register("chromium_fragments" ,
+          () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ITEMS)));
+
+  public static final RegistryObject<Item> SKY_LIGHT_FRAGMENTS = ITEMS.register("sky_light_fragments" ,
+          () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ITEMS)));
+
+  public static final RegistryObject<Item> CHROMIUM_SWORD = ITEMS.register("chromium_sword" ,
+          () -> new SwordItem(ModTiers.CHROMIUM,9, 0.5f,
+                  new Item.Properties().tab(ModCreativeModeTab.WEAPONSANDTOOLS)));
+
+  public static final RegistryObject<Item> CHROMIUM_pickaxe = ITEMS.register("chromium_pickaxe" ,
+          () -> new PickaxeItem(ModTiers.CHROMIUM,2, 0.5f,
+                  new Item.Properties().tab(ModCreativeModeTab.WEAPONSANDTOOLS)));
+
+  public static final RegistryObject<Item> CHROMIUM_SHOVEL = ITEMS.register("chromium_shovel" ,
+          () -> new ShovelItem(ModTiers.CHROMIUM,2, 0.5f,
+                  new Item.Properties().tab(ModCreativeModeTab.WEAPONSANDTOOLS)));
+
+  public static final RegistryObject<Item> CHROMIUM_AXE = ITEMS.register("chromium_axe" ,
+          () -> new AxeItem(ModTiers.CHROMIUM,10, 0.5f,
+                  new Item.Properties().tab(ModCreativeModeTab.WEAPONSANDTOOLS)));
+
+  public static final RegistryObject<Item> CHROMIUM_HOE = ITEMS.register("chromium_hoe" ,
+          () -> new HoeItem(ModTiers.CHROMIUM,1, 0.5f,
+                  new Item.Properties().tab(ModCreativeModeTab.WEAPONSANDTOOLS)));
+
+  public static final RegistryObject<Item> CHROMIUM_HELMET = ITEMS.register("chromium_helmet",
+          () -> new ArmorItem(ModArmorMaterials.CHROMIUM, EquipmentSlot.HEAD,
+                  new Item.Properties().tab(ModCreativeModeTab.ARMOR)));
+
+  public static final RegistryObject<Item> CHROMIUM_CHESTPLATE = ITEMS.register("chromium_chestplate",
+          () -> new ArmorItem(ModArmorMaterials.CHROMIUM, EquipmentSlot.CHEST,
+                  new Item.Properties().tab(ModCreativeModeTab.ARMOR)));
+
+  public static final RegistryObject<Item> CHROMIUM_LEGGINGS = ITEMS.register("chromium_leggings",
+          () -> new ArmorItem(ModArmorMaterials.CHROMIUM, EquipmentSlot.LEGS,
+                  new Item.Properties().tab(ModCreativeModeTab.ARMOR)));
+
+  public static final RegistryObject<Item> CHROMIUM_BOOTS = ITEMS.register("chromium_boots",
+          () -> new ArmorItem(ModArmorMaterials.CHROMIUM, EquipmentSlot.FEET,
+                  new Item.Properties().tab(ModCreativeModeTab.ARMOR)));
+
+  public static final RegistryObject<Item> CHROMIUM_BOW = ITEMS.register("chromium_bow",
+          () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.WEAPONSANDTOOLS).durability(500)));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
