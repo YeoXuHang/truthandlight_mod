@@ -7,7 +7,7 @@ public class TruthAndLightModCreativeTab {
     public static final CreativeModeTab TruthAndLightModCreativeTab = new CreativeModeTab("truthandlight_tab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(TruthAndLightModItem.CITRINE.get());
+            return new ItemStack(TruthAndLightModItem.RAW_CHROMIUM.get());
         }
     };
 }
