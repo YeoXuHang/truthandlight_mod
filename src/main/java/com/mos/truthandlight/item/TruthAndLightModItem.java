@@ -68,7 +68,7 @@ public class TruthAndLightModItem {
                   new Item.Properties().tab(ModCreativeModeTab.ARMOR)));
 
   public static final RegistryObject<Item> CHROMIUM_BOW = ITEMS.register("chromium_bow",
-          () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.WEAPONSANDTOOLS).durability(500)));
+          () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.WEAPONSANDTOOLS).durability(2000)));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
