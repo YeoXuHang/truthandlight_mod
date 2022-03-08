@@ -1,0 +1,6 @@
+{
+  "parent": "item/chromium_bow",
+  "textures": {
+    "layer0": "truthandlight:item/chromium_bow_drawback_0"
+  }
+}
