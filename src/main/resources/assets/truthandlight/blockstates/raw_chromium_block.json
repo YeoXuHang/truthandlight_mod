@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "truthandlight:block/raw_chromium_block" }
+  }
+}

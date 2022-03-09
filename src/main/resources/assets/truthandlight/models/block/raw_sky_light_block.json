@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "truthandlight:block/raw_sky_light_block"
+  }
+}
