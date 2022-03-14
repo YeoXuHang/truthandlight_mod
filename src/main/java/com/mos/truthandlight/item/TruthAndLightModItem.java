@@ -106,6 +106,38 @@ public class TruthAndLightModItem {
   public static final RegistryObject<Item> CHROMIUM_BOW = ITEMS.register("chromium_bow",
           () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.WEAPONSANDTOOLS).durability(2000)));
   
+  public static final RegistryObject<Item> SKY_LIGHT_BOW = ITEMS.register("sky_light_bow",
+          () -> new BowItem(new Item.Properties().tab(ModCreativeModeTab.WEAPONSANDTOOLS).durability(500)));
+
+  public static final RegistryObject<Item> DARKNESS_GEM = ITEMS.register("darkness_gem" ,
+          () -> new Item(new Item.Properties().tab(ModCreativeModeTab.ITEMS)));
+
+  
+  public static final RegistryObject<Item> DARK_SWORD = ITEMS.register("dark_sword" ,
+          () -> new SwordItem(ModTiers.DARKNESS,31, 0.5f,
+                  new Item.Properties().tab(ModCreativeModeTab.WEAPONSANDTOOLS)));
+
+  public static final RegistryObject<Item> DARK_PICKAXE = ITEMS.register("dark_pickaxe" ,
+          () -> new PickaxeItem(ModTiers.DARKNESS,2, 0.5f,
+                  new Item.Properties().tab(ModCreativeModeTab.WEAPONSANDTOOLS)));
+
+  public static final RegistryObject<Item> DARK_HELMET = ITEMS.register("dark_helmet",
+          () -> new ArmorItem(ModArmorMaterials.DARKNESS, EquipmentSlot.HEAD,
+                  new Item.Properties().tab(ModCreativeModeTab.ARMOR)));
+
+  public static final RegistryObject<Item> DARK_CHESTPLATE = ITEMS.register("dark_chestplate",
+          () -> new ArmorItem(ModArmorMaterials.DARKNESS, EquipmentSlot.CHEST,
+                  new Item.Properties().tab(ModCreativeModeTab.ARMOR)));
+
+  public static final RegistryObject<Item> DARK_LEGGINGS = ITEMS.register("dark_leggings",
+          () -> new ArmorItem(ModArmorMaterials.DARKNESS, EquipmentSlot.LEGS,
+                  new Item.Properties().tab(ModCreativeModeTab.ARMOR)));
+
+  public static final RegistryObject<Item> DARK_BOOTS = ITEMS.register("dark_boots",
+          () -> new ArmorItem(ModArmorMaterials.DARKNESS, EquipmentSlot.FEET,
+                  new Item.Properties().tab(ModCreativeModeTab.ARMOR)));
+
+  
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
