@@ -136,6 +136,10 @@ public class TruthAndLightModItem {
   public static final RegistryObject<Item> DARK_BOOTS = ITEMS.register("dark_boots",
           () -> new ArmorItem(ModArmorMaterials.DARKNESS, EquipmentSlot.FEET,
                   new Item.Properties().tab(ModCreativeModeTab.ARMOR)));
+  
+public static final RegistryObject<Item> ANGELIC_SKY_LIGHT_SWORD = ITEMS.register("angelic_sky_light_sword" ,
+          () -> new SwordItem(ModTiers.ANGELIC,40, 1.0f,
+                  new Item.Properties().tab(ModCreativeModeTab.WEAPONSANDTOOLS)));
 
   
     public static void register(IEventBus eventBus) {
