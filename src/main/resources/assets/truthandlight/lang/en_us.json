@@ -5,6 +5,7 @@
   "item.truthandlight.raw_sky_light": "Raw Sky Light",
   "item.truthandlight.chromium_fragments": "Chromium Fragments",
   "item.truthandlight.sky_light_fragments": "Sky Light Fragments",
+  "item.truthandlight.darkness_gem": "Darkness Gem",
 
   "item.truthandlight.chromium_sword": "Chromium Sword",
   "item.truthandlight.chromium_pickaxe": "Chromium Pickaxe",
@@ -12,7 +13,30 @@
   "item.truthandlight.chromium_axe": "Chromium Axe",
   "item.truthandlight.chromium_hoe": "Chromium Hoe",
 
+  "item.truthandlight.sky_light_sword": "Sky light Sword",
+  "item.truthandlight.sky_light_pickaxe": "Sky light Pickaxe",
+  "item.truthandlight.sky_light_shovel": "Sky light Shovel",
+  "item.truthandlight.sky_light_axe": "Sky light Axe",
+  "item.truthandlight.sky_light_hoe": "Sky light Hoe",
+
+  "item.truthandlight.angelic_sky_light_sword": "Angelic Sky light Sword",
+
+  "item.truthandlight.dark_sword": "Dark Sword",
+  "item.truthandlight.dark_pickaxe": "Dark pickaxe",
+
+  "item.truthandlight.dark_helmet": "Dark Helmet",
+  "item.truthandlight.dark_chestplate": "Dark Chestplate",
+  "item.truthandlight.dark_leggings": "Dark Leggings",
+  "item.truthandlight.dark_boots": "Dark Boots",
+
+  "item.truthandlight.sky_light_helmet": "Sky light Helmet",
+  "item.truthandlight.sky_light_chestplate": "Sky light Chestplate",
+  "item.truthandlight.sky_light_leggings": "Sky light Leggings",
+  "item.truthandlight.sky_light_boots": "Sky light Boots",
+
   "item.truthandlight.chromium_bow": "Chromium Bow",
+  "item.truthandlight.sky_light_bow": "Sky Light Bow",
+  "item.truthandlight.darkness_bow": "Darkness Bow",
 
   "item.truthandlight.chromium_helmet": "Chromium Helmet",
   "item.truthandlight.chromium_chestplate": "Chromium Chestplate",
@@ -25,7 +49,21 @@
   "block.truthandlight.sky_light_block": "Sky Light Block",
   "block.truthandlight.chromium_ore": "Chromium Ore",
   "block.truthandlight.sky_light_ore": "Sky Light Ore",
+  "block.truthandlight.darkness_ore": "Dark Ore",
+  "block.truthandlight.deepslate_chromium_ore": "Deepslate Chromium Ore",
+  "block.truthandlight.dark_block": "Dark Block",
 
+  "block.truthandlight.red_log": "Red Log",
+  "block.truthandlight.red_planks": "Red Planks",
+  "block.truthandlight.red_wood": "Red Wood",
+  "block.truthandlight.stripped_red_log": "Stripped Red Log",
+  "block.truthandlight.stripped_red_wood": "Stripped Red Wood",
+
+  "block.truthandlight.red_leaves": "Red Leaves",
+  "block.truthandlight.red_sapling": "Red Sapling",
+
+  "block.truthandlight.purple_sapphire_block": "Purple Sapphire Block",
+  "item.truthandlight.purple_sapphire_gem": "Purple Sapphire Gem",
   "itemGroup.items": "Items",
   "itemGroup.blocks": "Blocks",
   "itemGroup.weapons_and_tools": "Weapons and tools",
