@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#truthandlight:red_logs"
+    "truthandlight:red_logs"
 
   ]
 }
